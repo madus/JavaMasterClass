@@ -5,30 +5,36 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Add number:");
-        int numbers = scanner.nextInt();
-        System.out.println("your number is: " + numbers);
+        int couter = 0;
+        int sum = 0;
+        while (couter < 10){
+
+            int order = couter + 1;
+            System.out.println("Enter number #" + order + ":");
+
+            boolean isInt = scanner.hasNextInt();
+
+            if(isInt){
+                int number = scanner.nextInt();
+                couter++;
+                sum = sum + number;
+                if(couter == 10){
+                    break;
+                }
 
 
-       // boolean hasNextInt = scanner.hasNextInt();
-        scanner.nextLine();
-      /* if () {*/
-            int sum = 0;
-            for (int i = 1; i <= numbers; i++) {
-
-                System.out.println("Introduce numarul " + i + ":");
-
-                int addNumber = scanner.nextInt();
-                sum = sum + addNumber;
-
+            } else {
+                System.out.println("Invalid number");
             }
 
-            System.out.println("Suma numerelor este: " + sum);
+            scanner.nextLine();
 
-      /* }*/
+        }
 
+        System.out.println("sum = " + sum);
+        scanner.close();
 
     }
 }
