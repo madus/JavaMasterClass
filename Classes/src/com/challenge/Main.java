@@ -3,6 +3,13 @@ package com.challenge;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Car porche = new Car();
+        Car dacia = new Car();
+
+        porche.setModel("Macan");
+
+        System.out.println("Model is " + porche.getModel());
+
     }
 }
