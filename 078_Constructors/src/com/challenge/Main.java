@@ -46,6 +46,12 @@ public class Main {
 
         }
 
+        VipCustomer testing = new VipCustomer();
+        System.out.println(testing.getCreditLimit() + " " + testing.getEmail() + " " + testing.getName());
+
+        VipCustomer vipCst = new VipCustomer("Madalin", 100);
+
+        System.out.println(vipCst.getEmail());
 
     }
 

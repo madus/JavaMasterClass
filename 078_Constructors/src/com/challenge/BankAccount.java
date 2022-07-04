@@ -10,6 +10,20 @@ public class BankAccount {
     private double deposit;
     private double withdraw;
 
+    public  BankAccount(){
+
+        System.out.println("Empty constructor");
+
+    }
+
+    public BankAccount(long accout_number, double balance, String customer_name, String email, int phone_number){
+        this.accout_number = accout_number;
+        this.balance = balance;
+        this.customer_name = customer_name;
+        this.email = email;
+        this.phone_number = phone_number;
+    }
+
     void setAccout_number(long accout_number){
 
         this.accout_number = accout_number;
