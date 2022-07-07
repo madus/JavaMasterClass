@@ -1,0 +1,20 @@
+
+b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(õí—ˆüÿÿÿÿ8ëıÍöœ0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±ûùÍûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ä¶¿­
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ìœÛÿøÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(°Úè
+B
+java:S1172/",Remove this unused method parameter "speed".(åÇŞŞ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(¼íî£ıÿÿÿÿ
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(®«’Ìúÿÿÿÿ8üıÍöœ0
+>
+java:S1068"(Remove this unused "eyes" private field.(¡æçÑ
+>
+java:S1068"(Remove this unused "legs" private field.(˜ï«Ã
+>
+java:S1068"(Remove this unused "tail" private field.(êÛÊí
+D
+java:S1068")Remove this unused "teeth" private field.(Ç¡åùÿÿÿÿ
+C
+java:S1068	"(Remove this unused "coat" private field.(ÔñÑøÿÿÿÿ
